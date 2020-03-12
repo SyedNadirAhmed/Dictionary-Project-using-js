@@ -1,0 +1,104 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background-color:#0C1021;
+}
+/*--------Main Container--------*/
+.container{
+	margin:0 auto;
+	max-width:1024px;
+	width:100%;
+	min-height:600px;
+	height:auto;
+	margin-top:10px;
+	background-color:#87CEEB;
+}
+.container h2{
+	background-color: #00BCD4;
+	text-align: center;
+	width: 100%;
+	height: 30px;
+    padding:10px 0; 
+}
+/*--------Main Container End--------*/
+
+/*--------Top Section Start--------*/
+.top{
+	background-color:#292A2D;
+	width:100%;
+	height:50px;
+	display:block;
+	text-align:center;
+}
+.top .E2B{
+    width: 80px;
+    height: 32px;
+    border: 2px solid #4CAF50;
+    margin-top: 10px;
+    background-color: #673AB7;
+    color: #fff;
+    font-weight: bold;
+	cursor:pointer;
+}
+.top .B2E{
+    width: 80px;
+    height: 32px;
+    border: 2px solid #4CAF50;
+    margin-top: 10px;
+    background-color: #673AB7;
+    color: #fff;
+    font-weight: bold;
+	cursor:pointer;
+}
+/*--------Top Section End--------*/
+
+/*--------SearchBar Start--------*/
+.searchBar{
+	margin-top:10px;
+	width:100%;
+	height:auto;
+	text-align:center;
+}
+.searchBar input[type=text]{
+	width:75%;
+	height:40px;
+	position:relative;
+	border:2px solid #CCE8FF;
+	border-redius:2px;
+	padding:0 10px;
+}
+.searchBar img{
+    position: absolute;
+    width: 40px;
+    height: 38px;
+    margin-left: -42px;
+    margin-top: 3px;
+    background: aqua;
+	cursor:pointer;
+	
+
+}
+#txtsuggestion{
+	margin:0 auto;
+	width:77%;
+	height:250px;
+	background-color:#F0F0F0;
+	display:none;
+	
+	border:1px solid #1967D2;
+	border-top:none;
+	/* transition:1s ease; */
+	/* -webkit-transition:1s ease; */
+	/* -ms-transition:1s ease; */
+	/* -o-transition:1s ease; */
+}
+/*--------SearchBar End--------*/
+
+
+
+
+
+
+

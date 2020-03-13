@@ -1,0 +1,15 @@
+@font-face{
+	font-family:"ElMessiri-Bold";
+	src:url("../fonts/ElMessiri-Bold.eot") format("eot"),
+	url("../fonts/ElMessiri-Bold.woff") format("woff"),
+	url("../fonts/ElMessiri-Bold.ttf") formate("truetype"),
+	url("../fonts/ElMessiri-Bold.svg#ElMessiri-Bold") format("svg");
+	
+	
+	font-family:"Bitter-Regular";
+	src:url("../fonts/Bitter-Regular.ttf") formate("truetype");
+	
+	
+	font-family:"NunitoSans-Regular";
+	src:url("../fonts/NunitoSans-Regular.ttf") formate("truetype");
+}

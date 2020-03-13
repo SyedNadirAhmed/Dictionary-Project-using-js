@@ -19,8 +19,12 @@ body{
 	background-color: #00BCD4;
 	text-align: center;
 	width: 100%;
-	height: 30px;
+	height: 36px;
     padding:10px 0; 
+	font-family:'ElMessiri-Bold', sans-serif;
+	font-size:32px;
+	font-weight:bold;
+    color: #03104a;
 }
 /*--------Main Container End--------*/
 
@@ -38,8 +42,6 @@ body{
     border: 2px solid #4CAF50;
     margin-top: 10px;
     background-color: #673AB7;
-    color: #fff;
-    font-weight: bold;
 	cursor:pointer;
 }
 .top .B2E{
@@ -48,10 +50,30 @@ body{
     border: 2px solid #4CAF50;
     margin-top: 10px;
     background-color: #673AB7;
-    color: #fff;
-    font-weight: bold;
 	cursor:pointer;
 }
+.E2B a{
+	text-decoration:none;
+	color: #fff;
+    font-weight: bold;
+	font-family:Bitter-Regular;
+	font-size:16px;
+}
+.B2E a{
+	text-decoration:none;
+	color: #fff;
+    font-weight: bold;
+	font-family:Bitter-Regular;
+	font-size:16px;
+}
+.E2B:active{
+	border: 1px solid #A80000;
+}
+.B2E:active{
+	border: 1px solid #A80000;
+}
+
+
 /*--------Top Section End--------*/
 
 /*--------SearchBar Start--------*/
@@ -66,8 +88,11 @@ body{
 	height:40px;
 	position:relative;
 	border:2px solid #CCE8FF;
-	border-redius:2px;
 	padding:0 10px;
+	text-align:center;
+	font-family:NunitoSans-Regular;
+	font-size:26px;
+	
 }
 .searchBar img{
     position: absolute;

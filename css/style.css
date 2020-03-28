@@ -14,6 +14,7 @@ body{
 	height:auto;
 	margin-top:10px;
 	background-color:#87CEEB;
+	box-sizing:border-box;
 }
 .container h2{
 	background-color: #00BCD4;
@@ -23,76 +24,30 @@ body{
     padding:10px 0; 
 	font-family:'ElMessiri-Bold', sans-serif;
 	font-size:32px;
-	font-weight:bold;
     color: #03104a;
 }
 /*--------Main Container End--------*/
 
-/*--------Top Section Start--------*/
-.top{
-	background-color:#292A2D;
-	width:100%;
-	height:50px;
-	display:block;
-	text-align:center;
-}
-.top .E2B{
-    width: 80px;
-    height: 32px;
-    border: 2px solid #4CAF50;
-    margin-top: 10px;
-    background-color: #673AB7;
-	cursor:pointer;
-}
-.top .B2E{
-    width: 80px;
-    height: 32px;
-    border: 2px solid #4CAF50;
-    margin-top: 10px;
-    background-color: #673AB7;
-	cursor:pointer;
-}
-.E2B a{
-	text-decoration:none;
-	color: #fff;
-    font-weight: bold;
-	font-family:Bitter-Regular;
-	font-size:16px;
-}
-.B2E a{
-	text-decoration:none;
-	color: #fff;
-    font-weight: bold;
-	font-family:Bitter-Regular;
-	font-size:16px;
-}
-.E2B:active{
-	border: 1px solid #A80000;
-}
-.B2E:active{
-	border: 1px solid #A80000;
-}
-
-
-/*--------Top Section End--------*/
 
 /*--------SearchBar Start--------*/
 .searchBar{
 	margin-top:10px;
 	width:100%;
+	min-height:250px;
 	height:auto;
 	text-align:center;
 }
 .searchBar input[type=text]{
-	width:75%;
-	height:40px;
-	position:relative;
-	border:2px solid #CCE8FF;
-	padding:0 10px;
-	text-align:center;
-	font-family:NunitoSans-Regular;
-	font-size:26px;
-	
+	width: 75%;
+    height: 44px;
+    position: relative;
+    border: 2px solid #CCE8FF;
+    padding: 0 10px;
+    text-align: center;
+    font-family: NunitoSans-Regular;
+    font-size: 26px;
+    color: #2E3436;
+    box-sizing: border-box;
 }
 .searchBar img{
     position: absolute;
@@ -102,24 +57,63 @@ body{
     margin-top: 3px;
     background: aqua;
 	cursor:pointer;
-	
-
 }
 #txtsuggestion{
-	margin:0 auto;
-	width:77%;
-	height:250px;
-	background-color:#F0F0F0;
-	display:none;
-	
-	border:1px solid #1967D2;
-	border-top:none;
-	/* transition:1s ease; */
-	/* -webkit-transition:1s ease; */
-	/* -ms-transition:1s ease; */
-	/* -o-transition:1s ease; */
+	margin: 0 auto;
+	width: 74.8%;
+	height: 200px;
+	background-color: #F0F0F0;
+	display: none;
+	border: 1px solid #1967D2;
+	border-top: none;
+	z-index:999;
 }
 /*--------SearchBar End--------*/
+
+/*--------Text Section Start--------*/
+
+.aboutTxt{
+	margin-top: 10px;
+}
+.aboutTxt > h2{
+	width: 100%;
+    min-height: 30px;
+    height: auto;
+    background-color: #4056A1;
+    color: #F0F0F0;
+    text-transform: uppercase;
+    font-size: 25px;
+    padding: 4px 0;
+    margin-bottom: 2px;
+}
+
+.aboutTxt p{
+    text-align: justify;
+    font-size: 16px;
+    font-family: Tahoma;
+    color: #f0f0f0;
+    background-color: #05396B;
+    padding: 5px;
+    text-transform: capitalize;
+    border-block-end: 1px solid #f0f0f0;
+}
+#spc{
+	text-align:center;
+}
+.aboutTxt .fas{
+	font-size:16px;
+	color: #F64C71; 
+}
+/*--------Text Section End--------*/
+
+
+
+
+
+
+
+
+
 
 
 
